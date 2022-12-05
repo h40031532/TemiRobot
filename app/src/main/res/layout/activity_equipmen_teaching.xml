@@ -13,87 +13,87 @@
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ppt1" />
+        app:srcCompat="@drawable/ppt01" />
 
     <ImageView
         android:id="@+id/ppt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ppt2" />
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
+        app:srcCompat="@drawable/ppt02" />
 
     <ImageView
         android:id="@+id/ppt3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ppt3" />
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
+        app:srcCompat="@drawable/ppt03" />
 
     <ImageView
         android:id="@+id/ppt4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ppt4" />
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
+        app:srcCompat="@drawable/ppt04" />
 
     <ImageView
         android:id="@+id/ppt5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ppt6" />
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
+        app:srcCompat="@drawable/ppt05" />
 
     <ImageView
         android:id="@+id/ppt6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ppt5" />
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
+        app:srcCompat="@drawable/ppt06" />
 
     <ImageView
         android:id="@+id/ppt7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ppt7" />
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
+        app:srcCompat="@drawable/ppt07" />
 
     <ImageView
         android:id="@+id/ppt8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ppt8" />
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
+        app:srcCompat="@drawable/ppt08" />
 
     <ImageView
         android:id="@+id/ppt9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ppt9" />
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
+        app:srcCompat="@drawable/ppt09" />
 
     <ImageView
         android:id="@+id/ppt10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
         app:srcCompat="@drawable/ppt10" />
 
     <ImageView
@@ -101,8 +101,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
         app:srcCompat="@drawable/ppt11" />
 
     <ImageView
@@ -110,8 +110,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
         app:srcCompat="@drawable/ppt12" />
 
     <ImageView
@@ -119,8 +119,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
         app:srcCompat="@drawable/ppt13" />
 
     <ImageView
@@ -128,8 +128,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
         app:srcCompat="@drawable/ppt14" />
 
     <ImageView
@@ -137,8 +137,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
         app:srcCompat="@drawable/ppt15" />
 
     <ImageView
@@ -146,8 +146,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
         app:srcCompat="@drawable/ppt16" />
 
     <ImageView
@@ -155,8 +155,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
         app:srcCompat="@drawable/ppt17" />
 
     <ImageView
@@ -164,40 +164,98 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
         app:srcCompat="@drawable/ppt18" />
+
+    <ImageView
+        android:id="@+id/ppt19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
+        app:srcCompat="@drawable/ppt19" />
+
+    <ImageView
+        android:id="@+id/ppt20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
+        app:srcCompat="@drawable/ppt20" />
+
+    <ImageView
+        android:id="@+id/ppt21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
+        app:srcCompat="@drawable/ppt21" />
+
+    <ImageView
+        android:id="@+id/ppt22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
+        app:srcCompat="@drawable/ppt22" />
+
+    <ImageView
+        android:id="@+id/ppt23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
+        app:srcCompat="@drawable/ppt23" />
+
+    <ImageView
+        android:id="@+id/ppt24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/ppt1"
+        app:layout_constraintTop_toTopOf="@+id/ppt1"
+        app:srcCompat="@drawable/ppt24" />
 
     <ImageView
         android:id="@+id/btnhome"
         android:layout_width="105dp"
         android:layout_height="105dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="600dp"
+        android:layout_marginEnd="44dp"
         android:clickable="true"
         android:onClick="btnhome"
         android:src="@drawable/homewhite"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097" />
 
     <ImageView
         android:id="@+id/btnlast"
         android:layout_width="96dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="1150dp"
         android:layout_marginBottom="40dp"
         android:clickable="true"
         android:onClick="btnlast"
         android:src="@drawable/btnlast"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintBottom_toBottomOf="@+id/btnnext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnnext"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/btnnext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="16dp"
         android:clickable="true"
         android:onClick="btnnext"
         android:src="@drawable/btnnext"
